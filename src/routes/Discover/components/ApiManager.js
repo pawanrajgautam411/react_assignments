@@ -4,6 +4,8 @@
 class ApiManager {
     constructor() {
         this.accessToken = '';
+
+        
         this.isLoggedIn = false;
     }
 }

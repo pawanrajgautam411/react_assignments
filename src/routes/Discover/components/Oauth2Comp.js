@@ -106,7 +106,7 @@ class Oauth2Comp extends Component {
         console.log('errorRef=', this.errorMessageRef);
         if (this.errorMessageRef && this.errorMessageRef.current) {
             this.errorMessageRef.current.style.color = 'red';
-            this.errorMessageRef.current.innerHTML = 'Unable to reach Spotify Services &nbsp;&nbsp;\n' + error;
+            this.errorMessageRef.current.innerHTML = 'Spotify Services &nbsp;&nbsp;\n' + error;
         }
 
         if (this.divRef && this.divRef.current) {
